@@ -52,6 +52,10 @@ public class BuildContext : FrostingContext
         new("Unity.IL2CPP", "macos-x64"),
         new("NET.Framework", "win-x86", "net40"),
         new("NET.Framework", "win-x86", "net452"),
+        new("NET.Framework", "win-x86", "net48"),
+        new("NET.Framework", "win-x64", "net40"),
+        new("NET.Framework", "win-x64", "net452"),
+        new("NET.Framework", "win-x64", "net48"),
         new("NET.CoreCLR", "win-x64", "netcoreapp3.1"),
         new("NET.CoreCLR", "win-x64", "net6.0")
     };

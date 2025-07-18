@@ -22,6 +22,7 @@ internal class Program
         Environment.Exit(-1);
     }
 
+    [STAThread]
     private static void Main(string[] args)
     {
         var silentExceptionLog = $"preloader_{DateTime.Now:yyyyMMdd_HHmmss_fff}.log";
